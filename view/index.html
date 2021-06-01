@@ -16,6 +16,7 @@
         <p>
           <span class="highlighted">Please Upload a File ...</span>
         </p>
+
         <div class="view">
           <h4 id="output"></h4>
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
@@ -23,6 +24,13 @@
             <input id="button" type="submit" value="Upload">
           </form>
         </div>
+
+        <h3>User Stories:</h3>
+        <ul>
+          <li>You can submit a form that includes a file upload.</li>
+          <li>The form file input field has the <strong>name</strong> attribute set to <strong>upfile</strong>.</li>
+          <li>When you submit a file, you receive the file <strong>name</strong>, <strong>type</strong>, and <strong>size</strong> in bytes within the JSON response.</li>
+        </ul>
       </div>
    </body>
 </html>
